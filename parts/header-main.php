@@ -10,7 +10,7 @@
         $_has_header_img = false != $_header_img_src && ! empty( $_header_img_src );
       ?>
       <?php if ( ! $_has_header_img || ! hu_is_checked( 'use-header-image' ) ) : ?>
-          <div class="group pad">
+          <div class="group">
             <?php hu_print_logo_or_title();//gets the logo or the site title ?>
             <?php if ( hu_is_checked('site-description') ): ?><p class="site-description"><?php hu_render_blog_description() ?></p><?php endif; ?>
 

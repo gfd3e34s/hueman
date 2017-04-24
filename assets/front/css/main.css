@@ -635,9 +635,10 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 /* ------------------------------------------------------------------------- *
  *  Section: Header
 /* ------------------------------------------------------------------------- */
-#header { background: #33363b; position: relative; padding-bottom: 60px; }
+#header { /*background: #33363b;*/ position: relative; /*padding-bottom: 60px;*/ }
 #header .pad { padding-top: 30px; padding-bottom: 30px; }
 #header .container-inner { position: relative; }
+#header .container div.container-inner { padding-bottom: 10px; }
 
 .site-title { font-size: 2.625em; font-weight: 600; letter-spacing: -0.5px; float: left; line-height: 1.4285em; padding: 10px 0; }
 .site-title a { display: block; color: #fff; max-width: 100%; }
@@ -764,7 +765,7 @@ box-shadow: inset 1px 0 0 rgba(255,255,255,0.05), -1px 0 0 rgba(0,0,0,0.2); }
 /* ------------------------------------------------------------------------- *
  *  Section: Page
 /* ------------------------------------------------------------------------- */
-#page { padding-bottom: 60px; margin-top: -60px; }
+#page { padding-bottom: 60px; /*margin-top: -60px;*/ }
 #page .container-inner { background: #fff;
 -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 box-shadow: 0 1px 1px rgba(0,0,0,0.1); }
